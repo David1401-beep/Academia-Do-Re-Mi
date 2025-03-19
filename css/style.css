@@ -1,5 +1,53 @@
+
 .logo{
-    width: 100px;
+    width: 150px;
+    
+}
+
+.card{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #000000;
+    font-family: "PT Serif", serif;
+}
+
+.tarjeta{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    padding-left: 20px;
+}
+
+h1{
+    padding-left: 75px;
+}
+
+h2{
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.card:hover{
+    background-color: #c996ff;
+    transform: scale(1.05);
+}
+
+.footer{
+    padding: 25px;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.tarjeta{
+    display: flex;
+    justify-content: center;
 }
 
 header{
@@ -28,7 +76,7 @@ main{
 
 .welcome {
     padding: 20px;
-    background-color: blue;
+    background-color: rgb(90, 69, 144); 
     text-align: center;
     color: #ffffff;
 }
@@ -48,7 +96,7 @@ p{
 }
 
 .welcome h1, .courses h2 {
-    color: #005a9c;
+    color: #ffffff;
 }
 
 .infocurso img {
@@ -61,15 +109,18 @@ p{
 .infocurso {
     overflow: auto;
     margin-bottom: 30px;
+
 }
 
 footer{
     text-align: center;
     padding: 20px;
-    background-color: aliceblue;
+    background-color: rgb(90, 69, 144); 
 }
 
 .image{
     width: 600px;
     border: 2px solid black;
 }
+
+
